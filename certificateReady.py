@@ -138,7 +138,7 @@ async def generateCertificate(USERNAME_INPUT="User Name", CERTIFICATE_ID="XXXXXX
   def generateQR_Overlay(input_pdf_path, output_pdf_path, certificate_id):
     foreground_color = "#1EBB58"
     background_color = "#18181B"
-    qr_data = "https://aswin-vs.github.io/MathIn/#/verify/" + certificate_id
+    qr_data = "https://myself-aswin.github.io/MathIn/#/verify/" + certificate_id
     x = 638.6
     y = 184
     qr_gen_size = 960
@@ -241,7 +241,7 @@ async def generateCertificate(USERNAME_INPUT="User Name", CERTIFICATE_ID="XXXXXX
     font_path = "fonts/RobotoMono-SemiBold.ttf"
     font_name = "RobotoMono"
     font_size = 13
-    url = "https://aswin-vs.github.io/MathIn/#/verify/" + certificate_id
+    url = "https://myself-aswin.github.io/MathIn/#/verify/" + certificate_id
 
     pdfmetrics.registerFont(TTFont(font_name, font_path))
     buffer = 10
